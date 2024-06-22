@@ -21,11 +21,8 @@
     "noFallthroughCasesInSwitch": true,
 
     "paths": {
-      "SRC/*": ["./src/*"]
+      "SRC/*": ["./src/*"],
     },
-  },
-  "paths": {
-    "@pinkymini/nutriso-components-new": ["node_modules/@pinkymini/nutriso-components-new/dist/*"]
   },
   "include": ["src", "node_modules/@pinkymini/nutriso-components-new/dist"],
   "references": [{ "path": "./tsconfig.node.json" }]
