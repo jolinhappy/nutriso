@@ -9,5 +9,7 @@
   "main_Activity_Option_Light": "Exercise 1-3 days/week",
   "main_Activity_Option_Moderate": "Exercise 3-5 days/week",
   "main_Activity_Option_Active": "Exercise 5-7 days/week",
-  "main_Activity_Option_ExtraActive": "Exercise 2 times/day"
+  "main_Activity_Option_ExtraActive": "Exercise 2 times/day",
+  "main_Gender_Option_Male": "Male",
+  "main_Gender_Option_Female": "Female"
 }

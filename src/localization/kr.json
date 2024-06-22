@@ -9,5 +9,7 @@
   "main_Activity_Option_Light": "일주 1회~3회 운동",
   "main_Activity_Option_Moderate": "일주 3회~5회 운동",
   "main_Activity_Option_Active": "일주 5회~7회 운동",
-  "main_Activity_Option_ExtraActive": "하루 두번 정동 운동"
+  "main_Activity_Option_ExtraActive": "하루 두번 정동 운동",
+  "main_Gender_Option_Male": "남성",
+  "main_Gender_Option_Female": "여성"
 }

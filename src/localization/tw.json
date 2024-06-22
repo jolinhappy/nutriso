@@ -1,6 +1,6 @@
 {
   "main_Calculator_Title_Text": "TDEE與基礎代謝率計算機",
-  "main_Gender_Label_Text": "性別",
+  "main_Gender_Label_Text": "生理性別",
   "main_Height_Label_Text": "身高 (cm)",
   "main_Weight_Label_Text": "體重 (kg)",
   "main_Age_Label_Text": "年齡",
@@ -9,5 +9,7 @@
   "main_Activity_Option_Light": "一週運動 1~3 天",
   "main_Activity_Option_Moderate": "一週運動 3~5 天",
   "main_Activity_Option_Active": "一週運動 5~7 天",
-  "main_Activity_Option_ExtraActive": "每天運動 2 次"
+  "main_Activity_Option_ExtraActive": "每天運動 2 次",
+  "main_Gender_Option_Male": "男",
+  "main_Gender_Option_Female": "女"
 }
