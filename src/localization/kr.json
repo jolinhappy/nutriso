@@ -1,0 +1,13 @@
+{
+  "main_Calculator_Title_Text": "TDEE & 기초대사율 계산기",
+  "main_Gender_Label_Text": "성별",
+  "main_Height_Label_Text": "키 (cm)",
+  "main_Weight_Label_Text": "체중 (kg)",
+  "main_Age_Label_Text": "나이",
+  "main_Activity_Label_Text": "활동수준",
+  "main_Activity_Option_NoExercise": "앉아 있음/운동하지 않음",
+  "main_Activity_Option_Light": "일주 1회~3회 운동",
+  "main_Activity_Option_Moderate": "일주 3회~5회 운동",
+  "main_Activity_Option_Active": "일주 5회~7회 운동",
+  "main_Activity_Option_ExtraActive": "하루 두번 정동 운동"
+}

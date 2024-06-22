@@ -1,0 +1,13 @@
+{
+  "main_Calculator_Title_Text": "TDEE & BMR calculator",
+  "main_Gender_Label_Text": "Genger",
+  "main_Height_Label_Text": "Height (cm)",
+  "main_Weight_Label_Text": "Weight (kg)",
+  "main_Age_Label_Text": "Age",
+  "main_Activity_Label_Text": "Activity",
+  "main_Activity_Option_NoExercise": "No excercise",
+  "main_Activity_Option_Light": "Exercise 1-3 days/week",
+  "main_Activity_Option_Moderate": "Exercise 3-5 days/week",
+  "main_Activity_Option_Active": "Exercise 5-7 days/week",
+  "main_Activity_Option_ExtraActive": "Exercise 2 times/day"
+}
