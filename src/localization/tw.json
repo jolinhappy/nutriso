@@ -11,5 +11,12 @@
   "main_Activity_Option_Active": "一週運動 5~7 天",
   "main_Activity_Option_ExtraActive": "每天運動 2 次",
   "main_Gender_Option_Male": "男",
-  "main_Gender_Option_Female": "女"
+  "main_Gender_Option_Female": "女",
+  "main_Height_Placeholder_Text": "請填入身高 (cm)",
+  "main_Weight_PlaceholderText": "請填入體重 (kg)",
+  "main_Age_Placeholder_Text": "請填入年齡",
+  "main_Activity_Placeholder_Text": "請選擇活動量",
+  "main_Calculate_Button_Text": "計算",
+  "main_Recalculate_Button_Text": "重新計算",
+  "main_Required_Error_Text": "此欄位為必填"
 }

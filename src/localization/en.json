@@ -11,5 +11,12 @@
   "main_Activity_Option_Active": "Exercise 5-7 days/week",
   "main_Activity_Option_ExtraActive": "Exercise 2 times/day",
   "main_Gender_Option_Male": "Male",
-  "main_Gender_Option_Female": "Female"
+  "main_Gender_Option_Female": "Female",
+  "main_Height_Placeholder_Text": "Please enter your height (cm).",
+  "main_Weight_PlaceholderText": "Please enter your weight (kg).",
+  "main_Age_Placeholder_Text": "Please enter your age.",
+  "main_Activity_Placeholder_Text": "Please select your activity level.",
+  "main_Calculate_Button_Text": "Calculate",
+  "main_Recalculate_Button_Text": "Recalculate",
+  "main_Required_Error_Text": "This field is required."
 }
