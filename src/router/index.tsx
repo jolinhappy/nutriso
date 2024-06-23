@@ -1,9 +1,10 @@
 import { createHashRouter, RouteObject } from 'react-router-dom';
+import BMRAndTDEECalculator from 'SRC/pages/BMRAndTDEECalculator';
 
 const routeSetting: RouteObject[] = [
   {
     path: '/',
-    element: <div>Hello world!</div>,
+    element: <BMRAndTDEECalculator />,
   },
 ];
 
