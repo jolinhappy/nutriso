@@ -18,5 +18,8 @@
   "main_Activity_Placeholder_Text": "활동 수준을 선택하세요.",
   "main_Calculate_Button_Text": "계산",
   "main_Recalculate_Button_Text": "다시 계산",
-  "main_Required_Error_Text": "이 항목은 필수 입력 사항입니다."
+  "main_Required_Error_Text": "이 항목은 필수 입력 사항입니다.",
+  "main_TDEE_Text": "TDEE",
+  "main_BMR_Text": "기초대사율",
+  "main_CalculateResult_Text": "계산 결과"
 }

@@ -18,5 +18,8 @@
   "main_Activity_Placeholder_Text": "Please select your activity level.",
   "main_Calculate_Button_Text": "Calculate",
   "main_Recalculate_Button_Text": "Recalculate",
-  "main_Required_Error_Text": "This field is required."
+  "main_Required_Error_Text": "This field is required.",
+  "main_TDEE_Text": "TDEE",
+  "main_BMR_Text": "BMR",
+  "main_CalculateResult_Text": "Calculate Result"
 }

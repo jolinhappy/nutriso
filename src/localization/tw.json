@@ -18,5 +18,8 @@
   "main_Activity_Placeholder_Text": "請選擇活動量",
   "main_Calculate_Button_Text": "計算",
   "main_Recalculate_Button_Text": "重新計算",
-  "main_Required_Error_Text": "此欄位為必填"
+  "main_Required_Error_Text": "此欄位為必填",
+  "main_TDEE_Text": "TDEE",
+  "main_BMR_Text": "基礎代謝率",
+  "main_CalculateResult_Text": "計算結果"
 }
