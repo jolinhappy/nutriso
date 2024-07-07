@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { Lang } from 'SRC/constants/common';
 import { useTranslation } from 'react-i18next';
 import { Dropdown, IDropdownItem } from '@pinkymini/nutriso-components-new';
+import { GlobeIcon } from '@radix-ui/react-icons';
 
 interface TopBarProps {
   isPublicPage?: React.ReactNode;
@@ -37,7 +38,10 @@ const TopBar = ({ isPublicPage = false }: TopBarProps) => {
           <div className="flex flex-col items-center w-[650px]">
             <div className="self-end">
               <Dropdown dropdownList={dropdownList} value={currentLang} onValueChange={setCurrentLang}>
-                {dropdownList.find((item) => item.value === currentLang)?.optionText}
+                <div className="flex items-center">
+                  <GlobeIcon className="mr-1" />
+                  {dropdownList.find((item) => item.value === currentLang)?.optionText}
+                </div>
               </Dropdown>
             </div>
             <Link className="" to={{ pathname: '/' }}>
