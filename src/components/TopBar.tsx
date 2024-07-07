@@ -4,7 +4,11 @@ import { Lang } from 'SRC/constants/common';
 import { useTranslation } from 'react-i18next';
 import { Dropdown, IDropdownItem } from '@pinkymini/nutriso-components-new';
 
-const TopBar = () => {
+interface TopBarProps {
+  isPublicPage?: React.ReactNode;
+}
+
+const TopBar = ({ isPublicPage = false }: TopBarProps) => {
   const { i18n } = useTranslation();
   const [currentLang, setCurrentLang] = useState(Lang.TW);
   const dropdownList: IDropdownItem[] = [
@@ -27,14 +31,31 @@ const TopBar = () => {
   }, [currentLang, i18n]);
 
   return (
-    <div className="drop-shadow-lg bg-white px-10 py-3 flex items-center h-[75px] justify-between">
-      <Link className="" to={{ pathname: '/' }}>
-        <img className="h-[50px]" src="SRC/assets/logo.png" alt="" />
-      </Link>
-      <Dropdown dropdownList={dropdownList} value={currentLang} onValueChange={setCurrentLang}>
-        {dropdownList.find((item) => item.value === currentLang)?.optionText}
-      </Dropdown>
-    </div>
+    <>
+      {isPublicPage ? (
+        <div className="bg-white px-10 pt-14 flex items-center justify-center">
+          <div className="flex flex-col items-center w-[650px]">
+            <div className="self-end">
+              <Dropdown dropdownList={dropdownList} value={currentLang} onValueChange={setCurrentLang}>
+                {dropdownList.find((item) => item.value === currentLang)?.optionText}
+              </Dropdown>
+            </div>
+            <Link className="" to={{ pathname: '/' }}>
+              <img className="h-[80px]" src="SRC/assets/logo.png" alt="" />
+            </Link>
+          </div>
+        </div>
+      ) : (
+        <div className="drop-shadow-lg bg-white px-10 py-3 flex items-center h-[75px] justify-between">
+          <Link className="" to={{ pathname: '/' }}>
+            <img className="h-[50px]" src="SRC/assets/logo.png" alt="" />
+          </Link>
+          <Dropdown dropdownList={dropdownList} value={currentLang} onValueChange={setCurrentLang}>
+            {dropdownList.find((item) => item.value === currentLang)?.optionText}
+          </Dropdown>
+        </div>
+      )}
+    </>
   );
 };
 

@@ -21,5 +21,13 @@
   "main_Required_Error_Text": "This field is required.",
   "main_TDEE_Text": "TDEE",
   "main_BMR_Text": "BMR",
-  "main_CalculateResult_Text": "Calculate Result"
+  "main_CalculateResult_Text": "Calculate Result",
+  "main_Login_Title": "Login",
+  "main_Registration_Title": "Registration",
+  "main_Email_Label": "Email",
+  "main_Password_Label": "Password",
+  "main_Forget-Password_Text": "Forget password",
+  "main_Name_Label": "Name",
+  "main_Email_Input_Placeholder": "Please enter your email",
+  "main_Password_Input_Placeholder": "Please enter your password"
 }

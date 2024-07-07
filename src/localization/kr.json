@@ -21,5 +21,13 @@
   "main_Required_Error_Text": "이 항목은 필수 입력 사항입니다.",
   "main_TDEE_Text": "TDEE",
   "main_BMR_Text": "기초대사율",
-  "main_CalculateResult_Text": "계산 결과"
+  "main_CalculateResult_Text": "계산 결과",
+  "main_Login_Title": "로그인",
+  "main_Registration_Title": "회원 가입",
+  "main_Email_Label": "이메일",
+  "main_Password_Label": "비밀번호",
+  "main_Forget-Password_Text": "비밀번호 찾기",
+  "main_Name_Label": "이름",
+  "main_Email_Input_Placeholder": "이메일 입력해 주세요",
+  "main_Password_Input_Placeholder": "비밀번호 입력해 주세요"
 }

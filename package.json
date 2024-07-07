@@ -11,7 +11,7 @@
     "localization": "node ./localization/create-localization.js"
   },
   "dependencies": {
-    "@pinkymini/nutriso-components-new": "^1.0.8",
+    "@pinkymini/nutriso-components-new": "^1.0.9",
     "i18next": "^23.11.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

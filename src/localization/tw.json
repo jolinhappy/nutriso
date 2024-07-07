@@ -21,5 +21,13 @@
   "main_Required_Error_Text": "此欄位為必填",
   "main_TDEE_Text": "TDEE",
   "main_BMR_Text": "基礎代謝率",
-  "main_CalculateResult_Text": "計算結果"
+  "main_CalculateResult_Text": "計算結果",
+  "main_Login_Title": "登入",
+  "main_Registration_Title": "註冊",
+  "main_Email_Label": "信箱",
+  "main_Password_Label": "密碼",
+  "main_Forget-Password_Text": "忘記密碼",
+  "main_Name_Label": "姓名",
+  "main_Email_Input_Placeholder": "請填寫信箱",
+  "main_Password_Input_Placeholder": "請填寫密碼"
 }
