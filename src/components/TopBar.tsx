@@ -4,6 +4,7 @@ import { Lang } from 'SRC/constants/common';
 import { useTranslation } from 'react-i18next';
 import { Dropdown, IDropdownItem } from '@pinkymini/nutriso-components-new';
 import { GlobeIcon } from '@radix-ui/react-icons';
+import logo from 'SRC/assets/logo.png';
 
 interface TopBarProps {
   isPublicPage?: React.ReactNode;
@@ -45,14 +46,14 @@ const TopBar = ({ isPublicPage = false }: TopBarProps) => {
               </Dropdown>
             </div>
             <Link className="" to={{ pathname: '/' }}>
-              <img className="h-[80px]" src="SRC/assets/logo.png" alt="" />
+              <img className="h-[80px]" src={logo} alt="" />
             </Link>
           </div>
         </div>
       ) : (
         <div className="drop-shadow-lg bg-white px-10 py-3 flex items-center h-[75px] justify-between">
           <Link className="" to={{ pathname: '/' }}>
-            <img className="h-[50px]" src="SRC/assets/logo.png" alt="" />
+            <img className="h-[50px]" src={logo} alt="" />
           </Link>
           <Dropdown dropdownList={dropdownList} value={currentLang} onValueChange={setCurrentLang}>
             {dropdownList.find((item) => item.value === currentLang)?.optionText}
