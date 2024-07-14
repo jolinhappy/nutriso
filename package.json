@@ -1,11 +1,14 @@
 {
   "name": "nutriso",
+  "homepage": "https://jolinhappy.github.io/nutriso",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "start": "vite",
     "build": "tsc && vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "localization": "node ./localization/create-localization.js"
@@ -13,6 +16,7 @@
   "dependencies": {
     "@pinkymini/nutriso-components-new": "^1.0.12",
     "@radix-ui/react-icons": "^1.3.0",
+    "gh-pages": "^6.1.1",
     "i18next": "^23.11.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
