@@ -11,7 +11,7 @@
     "localization": "node ./localization/create-localization.js"
   },
   "dependencies": {
-    "@pinkymini/nutriso-components-new": "^1.0.11",
+    "@pinkymini/nutriso-components-new": "^1.0.12",
     "@radix-ui/react-icons": "^1.3.0",
     "i18next": "^23.11.5",
     "react": "^18.2.0",
